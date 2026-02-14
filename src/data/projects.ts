@@ -61,4 +61,14 @@ export const projects = [
     link: "https://rcstream.vercel.app",
     status: "complete"
 }
+{
+    id: 8,
+    title: "Valentine-day Web",
+    category: "Web App",q
+    tech: ["Next.js","tailwind.css","React.js"],
+    description: "web valentine-day untuk merayakan valentine di hari valentine setiap tanggal 14 Februari dan kirim ke pasangan kalian.",
+    image: "",
+    link: "https://valentine-day.ragaes.site",
+    status: "complete"
+}
 ];
