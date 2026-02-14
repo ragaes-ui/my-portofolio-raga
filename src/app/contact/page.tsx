@@ -38,7 +38,7 @@ export default function ContactPage() {
 
             {/* Tombol WhatsApp / Sosmed Lain */}
             <Link 
-              href="https://wa.me/62812345678" // Ganti nomormu nanti
+              href="https://wa.me/6287782691132" // Ganti nomormu nanti
               target="_blank"
               className="group flex items-center justify-center gap-3 px-8 py-4 border border-zinc-700 bg-zinc-900 text-white font-bold rounded-full hover:bg-zinc-800 transition transform hover:-translate-y-1"
             >
@@ -50,7 +50,7 @@ export default function ContactPage() {
           <FadeIn delay={0.4} className="mt-16 flex justify-center gap-8 text-gray-500">
             <Link href="#" className="hover:text-blue-500 transition">GitHub</Link>
             <Link href="#" className="hover:text-blue-500 transition">LinkedIn</Link>
-            <Link href="#" className="hover:text-blue-500 transition">Instagram</Link>
+            <Link href="https://instagram.com/ragaes_15" className="hover:text-blue-500 transition">Instagram</Link>
           </FadeIn>
 
         </div>
