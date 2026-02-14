@@ -64,7 +64,7 @@ export const projects = [
 {
     id: 8,
     title: "Valentine-day Web",
-    category: "Web App"
+    category: "Web App", 
     tech: ["Next.js","tailwind.css","React.js"],
     description: "web valentine-day untuk merayakan valentine di hari valentine setiap tanggal 14 Februari dan kirim ke pasangan kalian.",
     image: "",
