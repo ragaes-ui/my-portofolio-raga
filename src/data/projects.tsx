@@ -60,7 +60,7 @@ export const projects = [
     image: "",
     link: "https://rcstream.vercel.app",
     status: "complete"
-}
+}, 
 {
     id: 8,
     title: "Valentine-day Web",
