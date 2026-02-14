@@ -18,7 +18,7 @@ export const projects = [
     tech: ["Node.js", "MySql", "Animation"],
     description: "Undangan digital interaktif dengan fitur RSVP dan galeri foto.",
     image: "",
-    link: "https://bridge-invite.vercel.app",
+    link: "https://invite-bridge.rcellfest.shop",
     status: "Completed"
   },
   {
