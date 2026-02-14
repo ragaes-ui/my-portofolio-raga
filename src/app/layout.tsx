@@ -6,13 +6,14 @@ import LoadingScreen from "../components/LoadingScreen"; // Impor komponen loadi
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  // Judul dibuat lebih pro untuk branding kamu sebagai developer
-  title: "Raga Esa Pratama | Full Stack Developer", 
-  description: "Portofolio Raga Esa Pratama - Mahasiswa Sistem Informasi Universitas Terbuka & IT Support",
-  icon: '/icon.svg', // Mengarah ke file yang baru kamu buat
+  title: "Raga Esa Pratama | Full Stack Developer",
+  description: "Portofolio Raga Esa Pratama - Mahasiswa Sistem Informasi UT & IT Support",
+  icons: {
+    icon: '/icon.svg',
     apple: '/icon.svg',
   },
 };
+
 
 export default function RootLayout({
   children,
