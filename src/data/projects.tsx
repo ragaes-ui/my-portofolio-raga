@@ -25,7 +25,7 @@ export const projects = [
     id: 3,
     title: "Ticketing System",
     category: "Web App",
-    tech: ["Node.js", "MongodbL", "QR Code"],
+    tech: ["Node.js", "Mongodb", "QR Code"],
     description: "Sistem pemesanan dan validasi tiket event berbasis web.",
     image: "",
     link: "https://rcellfest.shop",
