@@ -8,7 +8,7 @@ export const projects = [
     tech: ["Node.js", "Express", "React", "MySQL"],
     description: "Sistem manajemen rumah sakit terintegrasi untuk rekam medis dan administrasi.",
     image: "", // Kosongkan dulu kalau belum ada foto
-    link: "#",
+    link: "https://rsudcibinong.id:9990",
     status: "Completed"
   },
   {
