@@ -28,7 +28,7 @@ export default function LoadingScreen() {
               transition={{ duration: 0.5 }}
               className="text-2xl md:text-4xl font-bold font-mono tracking-tighter text-white"
             >
-              Raga Esa<span className="text-blue-500">.dev</span>
+              ragaes<span className="text-blue-500">.dev</span>
             </motion.div>
             
             {/* Progress Bar Sederhana */}
