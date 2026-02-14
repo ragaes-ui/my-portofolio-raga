@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-white/10">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold font-mono">
-          Ragaes<span className="text-blue-500">.dev</span>
+          ragaes<span className="text-blue-500">.dev</span>
         </Link>
         
         <div className="flex gap-6 md:gap-8">
