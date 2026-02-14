@@ -6,7 +6,7 @@ import LoadingScreen from "../components/LoadingScreen"; // Impor komponen loadi
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Raga Esa Pratama | Full Stack Developer",
+  title: "Raga Esa Pratama | Junior Developer",
   description: "Portofolio Raga Esa Pratama - Mahasiswa Sistem Informasi UT & IT Support",
   icons: {
     icon: '/icon.svg',
