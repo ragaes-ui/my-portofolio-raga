@@ -58,7 +58,7 @@ export default function AboutPage() {
                     💻
                   </a>
                   <a 
-                    href="https://linkedin.com/in/raga-esa-pratama" 
+                    href="https://www.linkedin.com/in/raga-esa-pratama-8a8198276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-3 bg-zinc-900 border border-zinc-800 rounded-full hover:border-blue-500 transition hover:bg-zinc-800 text-xl"
