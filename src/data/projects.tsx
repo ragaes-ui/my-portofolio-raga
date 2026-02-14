@@ -12,7 +12,7 @@ export const projects = [
     status: "Completed"
   },
   {
-    id: 3,
+    id: 2,
     title: "Wedding Invitation",
     category: "Web Design",
     tech: ["Node.js", "MySql", "Animation"],
@@ -22,7 +22,7 @@ export const projects = [
     status: "Completed"
   },
   {
-    id: 4,
+    id: 3,
     title: "Ticketing System",
     category: "Web App",
     tech: ["Node.js", "MongodbL", "QR Code"],
@@ -32,7 +32,7 @@ export const projects = [
     status: "complete"
   },
   {
-    id: 5,
+    id: 4,
     title: "Web Cloud",
     category: "Cloud",
     tech: ["Wordpress"],
@@ -42,7 +42,7 @@ export const projects = [
     status: "complete"
 },
 {
-    id: 6,
+    id: 5,
     title: "KIOSK - RS Dev",
     category: "Web App",
     tech: ["html"],
@@ -52,7 +52,7 @@ export const projects = [
     status: "complete"
 },
 {
-    id: 7,
+    id: 6,
     title: "Aplikasi Streaming Ala netflix",
     category: "Web App",
     tech: ["html"],
@@ -62,7 +62,7 @@ export const projects = [
     status: "complete"
 }, 
 {
-    id: 8,
+    id: 7,
     title: "Valentine-day Web",
     category: "Web App", 
     tech: ["Next.js","tailwind.css","React.js"],
