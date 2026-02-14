@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   // Judul dibuat lebih pro untuk branding kamu sebagai developer
   title: "Raga Esa Pratama | Full Stack Developer", 
   description: "Portofolio Raga Esa Pratama - Mahasiswa Sistem Informasi Universitas Terbuka & IT Support",
+  icon: '/icon.svg', // Mengarah ke file yang baru kamu buat
+    apple: '/icon.svg',
+  },
 };
 
 export default function RootLayout({
