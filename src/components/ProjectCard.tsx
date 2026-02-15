@@ -61,7 +61,7 @@ export default function ProjectCard({ project, index }: { project: ProjectProps;
           href={project.link}
           className="mt-auto w-full block py-3 text-center text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition shadow-lg shadow-blue-900/20"
         >
-          Lihat Detail
+          Kunjungi Situs
         </Link>
       </div>
     </motion.div>
