@@ -31,7 +31,7 @@ export const projects = [
     tech: ["Node.js", "Mongodb", "QR Code"],
     description: "Sistem pemesanan dan validasi tiket event berbasis web.",
     // ✅ Otomatis Screenshot dari rcellfest.shop
-    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcellfest.shop?w=800&h=600",
+    image: "/rcellfest.jpg",
     link: "https://rcellfest.shop",
     status: "complete"
   },
