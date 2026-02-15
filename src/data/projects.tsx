@@ -17,7 +17,7 @@ export const projects = [
     category: "Web Design",
     tech: ["Node.js", "MySql", "Animation"],
     description: "Undangan digital interaktif dengan fitur RSVP dan galeri foto.",
-    image: "",
+    image: "/weeding.jpg",
     link: "https://invite-bridge.rcellfest.shop",
     status: "Completed"
   },
@@ -27,7 +27,7 @@ export const projects = [
     category: "Web App",
     tech: ["Node.js", "Mongodb", "QR Code"],
     description: "Sistem pemesanan dan validasi tiket event berbasis web.",
-    image: "",
+    image: "/rcellfest.jpg",
     link: "https://rcellfest.shop",
     status: "complete"
   },
@@ -37,7 +37,7 @@ export const projects = [
     category: "Cloud",
     tech: ["Wordpress"],
     description: "Kumpulan software crack, seperti printer, resseter printer, dll.",
-    image: "",
+    image: "/rcellcloud.jpg",
     link: "https://rcellcloud.wordpress.com",
     status: "complete"
 },
@@ -67,7 +67,7 @@ export const projects = [
     category: "Web App", 
     tech: ["Next.js","tailwind.css","React.js"],
     description: "web valentine-day untuk merayakan valentine di hari valentine setiap tanggal 14 Februari dan kirim ke pasangan kalian.",
-    image: "",
+    image: "/valentine.jpg",
     link: "https://valentine-day.ragaes.site",
     status: "complete"
 }
