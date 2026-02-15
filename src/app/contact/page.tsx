@@ -30,7 +30,7 @@ export default function ContactPage() {
           <FadeIn delay={0.2} className="flex flex-col sm:flex-row justify-center gap-6">
             {/* Tombol Email */}
             <Link 
-              href="mailto:emailmu@example.com" 
+              href="mailto:hai@ragaes.site" 
               className="group flex items-center justify-center gap-3 px-8 py-4 bg-white text-black font-bold rounded-full hover:bg-gray-200 transition transform hover:-translate-y-1"
             >
               📧 Kirim Email
