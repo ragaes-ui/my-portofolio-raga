@@ -17,7 +17,7 @@ export const projects = [
     category: "Web Design",
     tech: ["Node.js", "MySql", "Animation"],
     description: "Undangan digital interaktif dengan fitur RSVP dan galeri foto.",
-    image: "",
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Finvite-bridge.rcellfest.shop?w=800&h=600",
     link: "https://invite-bridge.rcellfest.shop",
     status: "Completed"
   },
@@ -27,7 +27,7 @@ export const projects = [
     category: "Web App",
     tech: ["Node.js", "Mongodb", "QR Code"],
     description: "Sistem pemesanan dan validasi tiket event berbasis web.",
-    image: "",
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcellfest.shop?w=800&h=600",
     link: "https://rcellfest.shop",
     status: "complete"
   },
@@ -37,7 +37,7 @@ export const projects = [
     category: "Cloud",
     tech: ["Wordpress"],
     description: "Kumpulan software crack, seperti printer, resseter printer, dll.",
-    image: "",
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcellcloud.wordpress.com?w=800&h=600",
     link: "https://rcellcloud.wordpress.com",
     status: "complete"
 },
@@ -47,7 +47,7 @@ export const projects = [
     category: "Web App",
     tech: ["html"],
     description: "Sistem kios k rs yang memudahkan untuk mengambil nomor antrian pasien.",
-    image: "",
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fkiosk-rs.vercel.app?w=800&h=600",
     link: "https://kiosk-rs.vercel.app",
     status: "complete"
 },
@@ -57,7 +57,7 @@ export const projects = [
     category: "Web App",
     tech: ["html"],
     description: "Aplikasi Streaming seperti netflix, untuk menonton film, dll.",
-    image: "",
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcstream.vercel.app?w=800&h=600",
     link: "https://rcstream.vercel.app",
     status: "complete"
 }, 
@@ -67,7 +67,7 @@ export const projects = [
     category: "Web App", 
     tech: ["Next.js","tailwind.css","React.js"],
     description: "web valentine-day untuk merayakan valentine di hari valentine setiap tanggal 14 Februari dan kirim ke pasangan kalian.",
-    image: "",
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fvalentine-day.ragaes.site?w=800&h=600w",
     link: "https://valentine-day.ragaes.site",
     status: "complete"
 }
