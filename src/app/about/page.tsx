@@ -86,7 +86,7 @@ export default function AboutPage() {
                   <div className="w-0.5 h-full bg-zinc-800 mt-2"></div>
                 </div>
                 <div>
-                  <span className="text-sm text-blue-400 font-mono">2025 - Sekarang</span>
+                  <span className="text-sm text-blue-400 font-mono">2024 - Sekarang</span>
                   <h3 className="text-xl font-bold">Universitas Terbuka</h3>
                   <p className="text-gray-400 font-medium">S1 Sistem Informasi</p>
                   <p className="text-gray-500 mt-2 max-w-xl text-sm leading-relaxed">
