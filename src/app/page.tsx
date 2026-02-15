@@ -18,7 +18,8 @@ import {
   SiTailwindcss, 
   SiPostgresql, 
   SiFigma, 
-  SiMongodb
+  SiMongodb, 
+  SiLaravel
 } from 'react-icons/si';
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
     { name: 'Tailwind', url: 'https://tailwindcss.com', icon: <SiTailwindcss className="text-xl text-cyan-400" /> },
     { name: 'PostgreSQL', url: 'https://www.postgresql.org', icon: <SiPostgresql className="text-xl text-blue-300" /> },
     { name: 'MongoDB', url: 'https://www.mongodb.com', icon: <SiMongodb className="text-xl text-green-600" /> },
+    { name: 'Laravel', url: 'https://laravel.com', icon: <SiLaravel className="text-xl text-red-600" /> },
     { name: 'Figma', url: 'https://www.figma.com', icon: <SiFigma className="text-xl text-purple-400" /> },
   ];
 
