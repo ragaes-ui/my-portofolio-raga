@@ -101,11 +101,29 @@ export default function AboutPage() {
                   <div className="w-0.5 h-full bg-zinc-800 mt-2"></div>
                 </div>
                 <div>
-                  <span className="text-sm text-gray-500 font-mono">2023 - 2026</span>
+                  <span className="text-sm text-blue-400 font-mono">2023 - sekarang</span>
                   <h3 className="text-xl font-bold">IT Support</h3>
                   <p className="text-gray-400 font-medium">PT KEMALA INTI SOLUSI (RSUD CIBINONG)</p>
                   <p className="text-gray-500 mt-2 max-w-xl text-sm leading-relaxed">
                     Melakukan maintenance hardware, software, dan troubleshooting SIMRS untuk kelancaran operasional rumah sakit.
+                  </p>
+                </div>
+              </div>
+
+              {/* ITEM 3: PKL */}
+              <div className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="w-4 h-4 bg-zinc-600 rounded-full"></div>
+                  <div className="w-0.5 h-full bg-zinc-800 mt-2"></div>
+                </div>
+                <div>
+                  <span className="text-sm text-gray-500 font-mono">2022</span>
+                  <h3 className="text-xl font-bold">PRAKTIK KERJA LAPANGAN (PKL)</h3>
+                  <p className="text-gray-400 font-medium">Universitas Ukrida</p>
+                  <p className="text-gray-500 mt-2 max-w-xl text-sm leading-relaxed">
+                    Bertanggung jawab membantu staf admin terhadap segala dokumen, data serta segala
+                    hal administratif yang berkepentingan dengan mahasiswa, dan membantu
+                    merencanakan kegiatan mahasiswa.
                   </p>
                 </div>
               </div>
