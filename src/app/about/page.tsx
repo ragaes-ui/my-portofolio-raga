@@ -117,8 +117,8 @@ export default function AboutPage() {
                   {/* Garis vertikal dihilangkan pada item terakhir agar lebih rapi, atau bisa dibiarkan jika akan ada item lain */}
                 </div>
                 <div>
-                  <span className="text-sm text-gray-500 font-mono">20XX - 20XX</span> {/* Ganti Tahun Sesuai Kelulusan */}
-                  <h3 className="text-xl font-bold">SMK (Nama Sekolah)</h3> {/* Ganti Nama Sekolah */}
+                  <span className="text-sm text-gray-500 font-mono">2020 - 2023</span> {/* Ganti Tahun Sesuai Kelulusan */}
+                  <h3 className="text-xl font-bold">SMK (Dewi Sartika Jakarta Barat)</h3> {/* Ganti Nama Sekolah */}
                   <p className="text-gray-400 font-medium">Administrasi Perkantoran</p>
                   <p className="text-gray-500 mt-2 max-w-xl text-sm leading-relaxed">
                     Mempelajari manajemen kearsipan, korespondensi, dan tata kelola administrasi perkantoran secara profesional.
