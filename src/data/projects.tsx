@@ -78,5 +78,16 @@ export const projects = [
     image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fvalentine-day.ragaes.site?w=800&h=600",
     link: "https://valentine-day.ragaes.site",
     status: "complete"
+  },
+  {
+    id: 8,
+    title: "Blogger Inovasi",
+    category: "Web App", 
+    tech: ["html"],
+    description: "inovasi blog rcell tech",
+    // ✅ Otomatis Screenshot dari ragaes.site
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcelltech.vercel.app?w=800&h=600",
+    link: "https://rcelltech.vercel.app/",
+    status: "complete"
   }
 ];
