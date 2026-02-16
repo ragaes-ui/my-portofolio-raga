@@ -118,7 +118,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <span className="text-sm text-gray-500 font-mono">2022</span>
-                  <h3 className="text-xl font-bold">PRAKTIK KERJA LAPANGAN (PKL)</h3>
+                  <h3 className="text-xl font-bold">Praktik Kerja Lapangan (PKL)</h3>
                   <p className="text-gray-400 font-medium">Universitas Ukrida</p>
                   <p className="text-gray-500 mt-2 max-w-xl text-sm leading-relaxed">
                     Bertanggung jawab membantu staf admin terhadap segala dokumen, data serta segala
