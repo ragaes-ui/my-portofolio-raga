@@ -40,7 +40,7 @@ export default function AboutPage() {
               {/* TOMBOL DOWNLOAD CV & SOSIAL MEDIA */}
               <div className="flex flex-wrap gap-4 items-center">
                 <a 
-                  href="/cv-raga-esa-pratama-update.pdf" 
+                  href="/cv raga esa pratama update.pdf" 
                   download 
                   className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-full transition transform hover:scale-105 shadow-lg shadow-blue-500/20 flex items-center gap-2"
                 >
