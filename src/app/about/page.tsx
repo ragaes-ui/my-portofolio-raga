@@ -109,6 +109,23 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
+              
+              {/* ITEM 3: SMK (BARU DITAMBAHKAN) */}
+              <div className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="w-4 h-4 bg-zinc-600 rounded-full"></div>
+                  {/* Garis vertikal dihilangkan pada item terakhir agar lebih rapi, atau bisa dibiarkan jika akan ada item lain */}
+                </div>
+                <div>
+                  <span className="text-sm text-gray-500 font-mono">20XX - 20XX</span> {/* Ganti Tahun Sesuai Kelulusan */}
+                  <h3 className="text-xl font-bold">SMK (Nama Sekolah)</h3> {/* Ganti Nama Sekolah */}
+                  <p className="text-gray-400 font-medium">Administrasi Perkantoran</p>
+                  <p className="text-gray-500 mt-2 max-w-xl text-sm leading-relaxed">
+                    Mempelajari manajemen kearsipan, korespondensi, dan tata kelola administrasi perkantoran secara profesional.
+                  </p>
+                </div>
+              </div>
+
             </div>
           </FadeIn>
         </div>
