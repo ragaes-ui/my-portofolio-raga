@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion'; // Import motion untuk animasi
-import Navbar from '../components/Navba';
+import Navbar from '../components/Navbar';
 import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer';
 import FadeIn from '../components/FadeIn';
