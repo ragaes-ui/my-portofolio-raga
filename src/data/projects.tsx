@@ -21,7 +21,7 @@ export const projects = [
     description: "Undangan digital interaktif dengan fitur RSVP dan galeri foto.",
     // ✅ Otomatis Screenshot dari link invite-bridge
     image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Finvite-bridge.rcellfest.shop?w=800&h=600",
-    link: "https://invite-bridge.rcellfest.shop:3333",
+    link: "https://invite-bridge.ragaes.site",
     status: "Completed"
   },
   {
