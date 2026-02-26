@@ -1,6 +1,4 @@
 import Image from 'next/image';
-// Pastikan framer-motion sudah ditambahkan di package.json
-import { motion } from 'framer-motion'; 
 import Navbar from '../../components/Navbar'; 
 import Footer from '../../components/Footer';
 import FadeIn from '../../components/FadeIn';
@@ -15,51 +13,14 @@ export default function AboutPage() {
         {/* --- BAGIAN 1: PERKENALAN --- */}
         <div className="flex flex-col md:flex-row items-center gap-12 mb-24">
           <FadeIn className="w-full md:w-1/2 flex justify-center">
-            
-            {/* --- AREA FOTO YANG BISA DITARIK & MANTUL --- */}
-            <motion.div 
-              drag // Mengaktifkan fitur tarik
-              
-              // KUNCI EFEK TALI: 
-              // Set semua constraints ke 0. Ini membuat elemen selalu ingin kembali ke titik awal (tengah) saat dilepas.
-              dragConstraints={{ top: 0, left: 0, right: 0, bottom: 0 }} 
-              
-              // Elastisitas (0 sampai 1). Memberi sensasi "melar" saat ditarik menjauh dari titik tengah.
-              dragElastic={0.6} 
-              
-              // Pengaturan Fisika Pantulan (Spring Physics)
-              dragTransition={{
-                  bounceStiffness: 300, // Kekakuan pegas (makin besar = makin cepat jepret balik)
-                  bounceDamping: 15     // Redaman (makin kecil = makin lama mantul-mantulnya)
-              }}
-
-              // State awal (sedikit miring)
-              initial={{ rotate: 3 }}
-
-              // State saat mouse hover (jadi lurus dan sedikit membesar)
-              whileHover={{ rotate: 0, scale: 1.02, transition: { duration: 0.3 } }}
-
-              // State saat sedang DITARIK
-              whileDrag={{ 
-                scale: 1.1,         // Membesar sedikit
-                rotate: 0,          // Jadi lurus
-                cursor: "grabbing", // Kursor tangan menggenggam
-                zIndex: 50          // Pastikan foto ada di atas elemen lain saat ditarik
-              }}
-              
-              // ClassName dibersihkan dari rotasi & transisi CSS agar tidak bentrok dengan animasi physics
-              className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-zinc-800 shadow-2xl shadow-blue-500/20 cursor-grab"
-            >
+            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-zinc-800 rotate-3 hover:rotate-0 transition duration-500 shadow-2xl shadow-blue-500/20">
                <Image 
-                 src="/raga.foto.jpeg" 
-                 alt="Raga Esa Pratama"
-                 fill
-                 draggable="false" // WAJIB: Mencegah ghost image bawaan browser
-                 className="object-cover pointer-events-none" // Memperhalus drag
+                  src="/raga.foto.jpeg" 
+                  alt="Raga Esa Pratama"
+                  fill
+                  className="object-cover"
                />
-            </motion.div>
-            {/* ------------------------------------------- */}
-            
+            </div>
           </FadeIn>
 
           <div className="w-full md:w-1/2">
@@ -79,7 +40,7 @@ export default function AboutPage() {
               {/* TOMBOL DOWNLOAD CV & SOSIAL MEDIA */}
               <div className="flex flex-wrap gap-4 items-center">
                 <a 
-                  href="/cv-raga-esa-pratama-update.pdf" 
+                  href="/cv raga esa pratama update.pdf" 
                   download 
                   className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-full transition transform hover:scale-105 shadow-lg shadow-blue-500/20 flex items-center gap-2"
                 >
@@ -149,6 +110,7 @@ export default function AboutPage() {
                 </div>
               </div>
 
+              {/* ITEM 3: PKL */}
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="w-4 h-4 bg-zinc-600 rounded-full"></div>
@@ -166,13 +128,15 @@ export default function AboutPage() {
                 </div>
               </div>
               
+              {/* ITEM 3: SMK (BARU DITAMBAHKAN) */}
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="w-4 h-4 bg-zinc-600 rounded-full"></div>
+                  {/* Garis vertikal dihilangkan pada item terakhir agar lebih rapi, atau bisa dibiarkan jika akan ada item lain */}
                 </div>
                 <div>
-                  <span className="text-sm text-gray-500 font-mono">2020 - 2023</span>
-                  <h3 className="text-xl font-bold">SMK (Dewi Sartika Jakarta Barat)</h3>
+                  <span className="text-sm text-gray-500 font-mono">2020 - 2023</span> {/* Ganti Tahun Sesuai Kelulusan */}
+                  <h3 className="text-xl font-bold">SMK (Dewi Sartika Jakarta Barat)</h3> {/* Ganti Nama Sekolah */}
                   <p className="text-gray-400 font-medium">Administrasi Perkantoran</p>
                   <p className="text-gray-500 mt-2 max-w-xl text-sm leading-relaxed">
                     Mempelajari manajemen kearsipan, korespondensi, dan tata kelola administrasi perkantoran secara profesional.
