@@ -8,6 +8,8 @@ import ProjectCard from '../components/ProjectCard';
 import Footer from '../components/Footer';
 import FadeIn from '../components/FadeIn';
 import { projects } from '../data/projects';
+import Chatbot from "../components/Chatbot";
+
 
 // Import Ikon dari React Icons
 import { 
@@ -147,6 +149,7 @@ export default function Home() {
       </section>
 
       <Footer />
+      <Chatbot />
     </main>
   );
 }
