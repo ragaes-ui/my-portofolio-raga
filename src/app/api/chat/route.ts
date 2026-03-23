@@ -29,8 +29,9 @@ export async function POST(req: Request) {
         if (data.candidates && data.candidates[0].content) {
             const replyText = data.candidates[0].content.parts[0].text;
             return NextResponse.json({ reply: replyText });
-        } else {
-            return NextResponse.json({ reply: "Duh, AI-nya lagi bengong kak. Coba lagi ya! 😅" });
+                } else {
+            const pesanError = data.error ? data.error.message : "Nggak tau kenapa nih";
+            return NextResponse.json({ reply: "Google bilang: " + pesanError });
         }
 
     } catch (error) {
