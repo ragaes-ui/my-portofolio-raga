@@ -3,6 +3,7 @@ import ProjectCard from '../../components/ProjectCard';
 import Footer from '../../components/Footer';
 import FadeIn from '../../components/FadeIn';
 import { projects } from '../../data/projects';
+import Chatbot from "../components/Chatbot";
 
 export default function ProjectsPage() {
   return (
