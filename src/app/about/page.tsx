@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Navbar from '../../components/Navbar'; 
 import Footer from '../../components/Footer';
 import FadeIn from '../../components/FadeIn';
+import Chatbot from "../../components/Chatbot";
 
 export default function AboutPage() {
   return (
@@ -189,6 +190,7 @@ export default function AboutPage() {
 
       </div>
       <Footer />
+      <Chatbot />
     </main>
   );
 }
