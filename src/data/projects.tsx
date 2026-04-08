@@ -89,5 +89,16 @@ export const projects = [
     image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcelltech.vercel.app?w=800&h=600",
     link: "https://rcelltech.vercel.app/",
     status: "complete"
+  },
+    {
+    id: 9,
+    title: "Absensi Dev",
+    category: "Web App", 
+    tech: ["html"],
+    description: "absensi karyawan berbasis web serta monitoring absensi",
+    // ✅ Otomatis Screenshot dari ragaes.site
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fabsensi-v2.vercel.app?w=800&h=600",
+    link: "https://absensi-v2.vercel.app/",
+    status: "complete"
   }
 ];
