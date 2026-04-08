@@ -1,7 +1,7 @@
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import FadeIn from '../../components/FadeIn';
-import Chatbot from "../../componets/Chatbot";
+import Chatbot from "../../components/Chatbot";
 
 // Data Layanan (Bisa kamu edit kata-katanya nanti)
 const services = [
