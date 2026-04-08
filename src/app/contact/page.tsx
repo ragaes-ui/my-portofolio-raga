@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import FadeIn from '../../components/FadeIn';
-import Chatbot from '../../components/Chatbot';
+import Chatbot from "../../components/Chatbot";
 
 export default function ContactPage() {
   return (
