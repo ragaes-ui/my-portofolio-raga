@@ -77,7 +77,7 @@ export default function ProjectCard({ project, index }: { project: ProjectProps;
           target="_blank" // Biar buka di tab baru
           className="mt-auto w-full block py-3 text-center text-sm font-semibold text-white bg-blue-600 hover:bg-blue-500 rounded-lg transition-all shadow-lg hover:shadow-blue-500/25 active:scale-95"
         >
-          Lihat Project 🚀
+          Kunjungi Situs 🚀
         </Link>
       </div>
     </motion.div>
