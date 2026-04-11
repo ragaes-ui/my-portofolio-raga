@@ -16,7 +16,7 @@ export default function AboutPage() {
           <FadeIn className="w-full md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-zinc-800 rotate-3 hover:rotate-0 transition duration-500 shadow-2xl shadow-blue-500/20">
                <Image 
-                  src="/raga.foto.jpeg" 
+                  src="/IMG_0253.jpeg" 
                   alt="Raga Esa Pratama"
                   fill
                   className="object-cover"
