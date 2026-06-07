@@ -100,5 +100,16 @@ export const projects = [
     image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Fabsensi-v2.vercel.app?w=800&h=600",
     link: "https://absensi-v2.vercel.app/",
     status: "complete"
-  }
+  },
+   {    
+    id: 10,
+    title: "Undangan Digital New Version",
+    category: "Web App", 
+    tech: ["node js, Mongodb, html"],
+    description: "Undangan digital untuk pernikahan, dengan menggunakan database",
+    // ✅ Otomatis Screenshot dari ragaes.site
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Finviteweeding.my.id?w=800&h=600",
+    link: "https://inviteweeding.my.id/",
+    status: "complete"
+   }
 ];
