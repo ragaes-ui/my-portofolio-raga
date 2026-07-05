@@ -111,5 +111,16 @@ export const projects = [
     image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Finviteweeding.my.id?w=800&h=600",
     link: "https://inviteweeding.my.id/",
     status: "complete"
-   }
+   },
+     {    
+    id: 11,
+    title: "RCELLFESTIVAL TICKETING BLOGGER",
+    category: "Web App", 
+    tech: ["next js, html"],
+    description: "Blogger rcellfestival untuk menghubungkan ke dalam event rcellfest tujuannya untuk mempermudah pencarian event",
+    // ✅ Otomatis Screenshot dari ragaes.site
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcellfestival.my.id?w=800&h=600",
+    link: "https://rcellfestival.my.id/",
+    status: "complete"
+     }
 ];
