@@ -23,7 +23,8 @@ import {
   SiMongodb, 
   SiLaravel,
   SiVite,
-  SiVuedotjs
+  SiVuedotjs,
+  SiJava
 } from 'react-icons/si';
 
 export default function Home() {
