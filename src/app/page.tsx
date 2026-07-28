@@ -23,10 +23,9 @@ import {
   SiMongodb, 
   SiLaravel,
   SiVite,
-  SiVuedotjs,
-  SiJava
+  SiVuedotjs
 } from 'react-icons/si';
-
+import { FaJava } from 'react-icons/fa'; 
 export default function Home() {
   const featuredProjects = projects.slice(0, 3);
 
