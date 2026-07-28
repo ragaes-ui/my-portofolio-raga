@@ -21,7 +21,8 @@ import {
   SiPostgresql, 
   SiFigma, 
   SiMongodb, 
-  SiLaravel
+  SiLaravel,
+  SiVite
 } from 'react-icons/si';
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
     { name: 'MongoDB', url: 'https://www.mongodb.com', icon: <SiMongodb className="text-xl text-green-600" /> },
     { name: 'Laravel', url: 'https://laravel.com', icon: <SiLaravel className="text-xl text-red-600" /> },
     { name: 'Figma', url: 'https://www.figma.com', icon: <SiFigma className="text-xl text-purple-400" /> },
+    { name: 'Vite.js', url: 'https://vitejs.dev', icon: <SiVite className="text-xl text-purple-500" /> },
   ];
 
   return (
