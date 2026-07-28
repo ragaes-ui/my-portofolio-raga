@@ -42,6 +42,7 @@ export default function Home() {
     { name: 'Figma', url: 'https://www.figma.com', icon: <SiFigma className="text-xl text-purple-400" /> },
     { name: 'Vite.js', url: 'https://vitejs.dev', icon: <SiVite className="text-xl text-purple-500" /> },
     { name: 'Vue.js', url: 'https://vuejs.org', icon: <SiVuedotjs className="text-xl text-green-500" /> },
+    { name: 'Java', url: 'https://www.java.com', icon: <FaJava className="text-xl text-orange-500" /> },
   ];
 
   return (
