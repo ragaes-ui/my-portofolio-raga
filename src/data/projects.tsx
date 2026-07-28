@@ -122,5 +122,16 @@ export const projects = [
     image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Frcellfestival.my.id?w=800&h=600",
     link: "https://rcellfestival.my.id/",
     status: "complete"
+     },
+       {    
+    id: 12,
+    title: "WEB DOKUMENTASI TEMAN KONSER",
+    category: "Web App", 
+    tech: ["vite, node.js"],
+    description: "Website dibuat untuk komunitas baru yang berisikan dokumentasi konser, nongkrong ataupun event lain.",
+    // ✅ Otomatis Screenshot dari ragaes.site
+    image: "https://s0.wordpress.com/mshots/v1/https%3A%2F%2Ftemankonserfestival.my.id?w=800&h=600",
+    link: "https://temankonserfestival.my.id/",
+    status: "complete"
      }
 ];
